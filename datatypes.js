@@ -37,4 +37,4 @@ console.log(person.age);//output:{name: "jhon", age: 30}
 //arrays
 console.log("DT arrays");
 var numbers =["apple","orange","pine","fig","kiwi"];
-console.log(numbers[4]);//output fig
+console.log(numbers[4]);//output kiwi
