@@ -27,4 +27,14 @@ console.log(symbolvalue);//output: symbol(symbol)
 console.log("DT bigint");
 var bigintvalue = 9007199254740991n;
 console.log(bigintvalue);//output: 9007199254740991n
-
+console.log("welcome to non primitive datatypes");
+//objects
+console.log("DT objects");
+var person ={
+    name:"jhon",
+    age: 30};
+console.log(person.age);//output:{name: "jhon", age: 30}
+//arrays
+console.log("DT arrays");
+var numbers =["apple","orange","pine","fig","kiwi"];
+console.log(numbers[4]);//output fig
