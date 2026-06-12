@@ -19,3 +19,12 @@ console.log(address);//output: null
 console.log("DT undefined");
 var phone;
 console.log("phone");//output: undefined
+//symbols
+console.log("DT symbols");
+var symbolvalue = Symbol('value');
+console.log(symbolvalue);//output: symbol(symbol)
+//bigint
+console.log("DT bigint");
+var bigintvalue = 9007199254740991n;
+console.log(bigintvalue);//output: 9007199254740991n
+
