@@ -7,3 +7,10 @@ console.log(a*b)//multiplication
 console.log(a/b)//division
 console.log(a%b)//modulus)
 console.log(a**b)//exponentiation
+//assignment
+console.log("assignment operators")
+var  c=20
+console.log(a+=b)
+console.log(a-=b)
+console.log(a*=b)
+console.log(a/=b)
