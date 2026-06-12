@@ -36,3 +36,7 @@ console.log(c++)
 console.log(c--)
 console.log(++c)
 console.log(--c)
+//ternary
+console.log("ternary operator")
+var result = (a > b) ? "a is greater than b" : "a is less than or equal to b";
+console.log(result)
