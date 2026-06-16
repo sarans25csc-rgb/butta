@@ -1,0 +1,34 @@
+    <!DOCTYPE html>
+
+    </html>
+
+    <body>
+        <script>
+            const studentpromise =
+                new Promise(function (resolve, reject) {
+                    console.log("inside promise");
+                    let success = false;
+                    setTimeout(function () {
+                        console.log("inside settimeout");
+                        if (success) {
+                            console.log("inside success");
+                            resolve("student loaded successfully");
+                        } else {
+                            console.log("inside error");
+                            reject("falied to load student");
+                        }
+                    }, 3000);
+                });
+            studentpromise
+                .then(function (result) {
+                    console.log("inside then");
+                    console.log(result);
+                })
+                .catch(function (error) {
+                    console.log("inside catch");
+                    console.log(error);
+                });
+        </script>
+    </body>
+
+    </html>
